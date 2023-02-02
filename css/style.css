@@ -1,0 +1,160 @@
+body {
+	font-family: 'Source Code Pro', monospace;
+	margin: 0;
+
+	font-size: 15px;
+	line-height: 1.6;
+}
+
+
+
+.navi {
+	padding: 20px;
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	transition: color .2s linear;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 10px;
+	position: relative;
+}
+
+.logo {
+	position: absolute;
+	top: 0;
+	left: 10%;
+	color: white;
+
+}
+
+
+.intro {
+
+	width: 100%;
+	height: 100vh;
+	color: white;
+
+	background: url("https://damion.club/uploads/posts/2022-01/1642402735_6-damion-club-p-chernie-foni-dlya-bizness-saitov-6.png") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+
+.container2 {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+
+.navigation {
+	width: 100%;
+
+	position: absolute;
+	top: 0%;
+	left: 0;
+	right: 0%;
+	z-index: 1000;
+	padding-top: 13px;
+
+}
+
+
+.nav {
+	text-transform: uppercase;
+
+}
+
+
+.navi:hover {
+	color: skyblue;
+}
+
+.navi:after {
+	content: "";
+	display: white;
+	width: 100%;
+	height: 3px;
+
+	background-color: skyblue;
+	opacity: 0;
+
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1;
+
+	transition: opacity .2s linear;
+
+}
+
+.navi:hover:after {
+	opacity: 1;
+}
+
+
+.container2 {
+	position: absolute;
+	top: 34%;
+	left: 15%;
+}
+
+.btn2 {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  background: skyblue;
+  transition: 0.2s;
+}
+
+.btn2:hover {
+	background: rgba(255,255,255,.2)
+}
+
+.btn2:active {
+	background: white; 
+}
+
+.title2 {
+	padding: 20px;
+}
+
+.text2 {
+	padding: 30px;
+}
+
+.block2 {
+	background: url("https://abrakadabra.fun/uploads/posts/2022-03/1648221339_14-abrakadabra-fun-p-minimalistichnii-temnii-fon-15.jpg")  no-repeat center;
+	-webkit-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.title3 {
+	color: white;
+	font-size: 55px;
+	padding-left: 17px;
+
+
+}
+
+.block2 {
+	color: white;
+	font-size: 30px;
+	padding-left: 100px;
+}
